@@ -1,0 +1,7 @@
+.accordion-header button {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background: #5369f8 !important;
+    color: white !important;
+}
