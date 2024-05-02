@@ -1,0 +1,82 @@
+[
+    {
+        "id": 2032,
+        "barcode": 655508514108,
+        "discount": "0 USD",
+        "total": "40 USD",
+        "paid": "320 USD",
+        "due": "100 USD",
+        "date": "2024-05-03",
+        "status": true
+    },
+    {
+        "id": 2033,
+        "barcode": 397665807890,
+        "discount": "30 USD",
+        "total": "64 USD",
+        "paid": "230 USD",
+        "due": "0 USD",
+        "date": "2024-04-28",
+        "status": false
+    },
+    {
+        "id": 2034,
+        "barcode": 123456789012,
+        "discount": "10 USD",
+        "total": "50 USD",
+        "paid": "180 USD",
+        "due": "20 USD",
+        "date": "2024-05-01",
+        "status": true
+    },
+    {
+        "id": 2035,
+        "barcode": 987654321098,
+        "discount": "5 USD",
+        "total": "75 USD",
+        "paid": "100 USD",
+        "due": "0 USD",
+        "date": "2024-04-30",
+        "status": true
+    },
+    {
+        "id": 2036,
+        "barcode": 246810975312,
+        "discount": "15 USD",
+        "total": "90 USD",
+        "paid": "200 USD",
+        "due": "10 USD",
+        "date": "2024-05-02",
+        "status": true
+    },
+    {
+        "id": 2037,
+        "barcode": 135792468013,
+        "discount": "20 USD",
+        "total": "120 USD",
+        "paid": "150 USD",
+        "due": "30 USD",
+        "date": "2024-05-05",
+        "status": false
+    },
+    {
+        "id": 2038,
+        "barcode": 112233445566,
+        "discount": "25 USD",
+        "total": "150 USD",
+        "paid": "300 USD",
+        "due": "50 USD",
+        "date": "2024-05-07",
+        "status": true
+    },
+    {
+        "id": 2039,
+        "barcode": 998877665544,
+        "discount": "8 USD",
+        "total": "80 USD",
+        "paid": "120 USD",
+        "due": "10 USD",
+        "date": "2024-05-06",
+        "status": false
+    }
+]

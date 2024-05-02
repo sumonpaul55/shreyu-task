@@ -152,7 +152,62 @@ const invoices: RoutesProps = {
   icon: "file",
   element: <Invoices />
 }
-
+const reports: RoutesProps = {
+  path: "/jobtask/reports",
+  name: "reports",
+  route: PrivateRoute,
+  roles: ["admin"],
+  icon: "file",
+  element: <Reports />
+}
+const branches: RoutesProps = {
+  path: "/jobtask/branch",
+  name: "branch",
+  route: PrivateRoute,
+  roles: ["admin"],
+  icon: "file",
+  element: <Branches />
+}
+const tests: RoutesProps = {
+  path: "/jobtask/tests",
+  name: "tests",
+  route: PrivateRoute,
+  roles: ["admin"],
+  icon: "file",
+  element: <Tests />
+}
+const cultures: RoutesProps = {
+  path: "/jobtask/cultures",
+  name: "cultures",
+  route: PrivateRoute,
+  roles: ["admin"],
+  icon: "file",
+  element: <Cultures />
+}
+const cultureoption: RoutesProps = {
+  path: "/jobtask/cultures-options",
+  name: "cultures-options",
+  route: PrivateRoute,
+  roles: ["admin"],
+  icon: "file",
+  element: <CulturesOption />
+}
+const antibiotics: RoutesProps = {
+  path: "/jobtask/antibiotics",
+  name: "antibiotics",
+  route: PrivateRoute,
+  roles: ["admin"],
+  icon: "file",
+  element: <Antibiotics />
+}
+const doctors: RoutesProps = {
+  path: "/jobtask/doctors",
+  name: "doctors",
+  route: PrivateRoute,
+  roles: ["admin"],
+  icon: "file",
+  element: <Doctors />
+}
 const calendarAppRoutes: RoutesProps = {
   path: "/apps/calendar",
   name: "Calendar",
@@ -258,10 +313,11 @@ const appRoutes = [
   invoices,
   calendarAppRoutes,
   taskProfileRoutes,
-  chatAppRoutes,
+  chatAppRoutes, branches, tests, cultures, cultureoption, antibiotics, doctors,
   emailAppRoutes,
   projectAppRoutes,
   taskAppRoutes,
+  reports,
   fileAppRoutes,
 ];
 

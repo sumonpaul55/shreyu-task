@@ -5,7 +5,7 @@ const Doctors = () => {
     return (
 
         <>
-            <PageTitle></PageTitle>
+            <PageTitle title='Doctors'></PageTitle>
         </>
     )
 }

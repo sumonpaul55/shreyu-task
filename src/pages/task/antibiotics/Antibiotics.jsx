@@ -4,7 +4,7 @@ import PageTitle from '../../../components/PageTitle'
 const Antibiotics = () => {
     return (
         <>
-            <PageTitle></PageTitle>
+            <PageTitle title='Antibiotics'></PageTitle>
 
         </>
     )

@@ -4,7 +4,7 @@ import PageTitle from '../../../components/PageTitle'
 const Cultures = () => {
     return (
         <>
-            <PageTitle></PageTitle>
+            <PageTitle title='Cultures'></PageTitle>
         </>
     )
 }

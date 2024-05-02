@@ -140,7 +140,7 @@ const Table = (props: TableProps) => {
       initialState: { pageSize: props["pageSize"] || 10 },
     },
     otherProps.hasOwnProperty("useGlobalFilter") &&
-      otherProps["useGlobalFilter"],
+    otherProps["useGlobalFilter"],
     otherProps.hasOwnProperty("useSortBy") && otherProps["useSortBy"],
     otherProps.hasOwnProperty("useExpanded") && otherProps["useExpanded"],
     otherProps.hasOwnProperty("usePagination") && otherProps["usePagination"],

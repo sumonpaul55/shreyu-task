@@ -4,7 +4,7 @@ import PageTitle from '../../../components/PageTitle'
 const Branches = () => {
     return (
         <>
-            <PageTitle></PageTitle>
+            <PageTitle title='Branches'></PageTitle>
         </>
     )
 }
